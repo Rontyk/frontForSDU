@@ -1,53 +1,32 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+*{
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 	background: #F7F6FF;
-	font-family: "Montserrat", sans-serif;
+	font-family: Inter, serif;
 }
+a{
+	text-decoration: none;
+	transition: all 0.5s ease-in-out
+}
+
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 header{
-	padding-top: 50px;
+	padding-top: 40px;
+	margin-bottom: 70px;
 }
 .container{
-	max-width: 1320px;
+	max-width: 1130px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -63,39 +42,54 @@ header{
 .header__wrapper-nav ul{
 	display: flex;
 	align-items: center;
-	gap: 40px;
+	gap: 24px;
 }
 .header__wrapper-buttons{
 	display: flex;
 	align-items: center;
-	gap: 30px;
+	gap: 11px;
 }
 .header__wrapper-logo{
-	margin-right: 60px;
+	margin-right: 7px;
+}
+.header__wrapper-logo-text{
+	margin-right: 63px;
+	font-size: 26px;
+	width: 65px;
+	height: 21px;
 }
 .header__wrapper-nav a{
 	text-decoration: none;
 	color: #000;
 	font-weight: 500;
-	font-size: 16px;
-	transition: all 0.5s ease-in-out;
+	font-size: 15px;
 }
 .header__wrapper-nav a:hover{
-	color: #1DBF73;
+	color: #1d9fbf;
 }
 .header__wrapper-button-grey{
-	color: #1DBF73;
-	background: #F2F0FE;
-	font-weight: 600;
-	font-size: 16px;
-	padding: 10px 30px;
-	border-radius: 50px;
+	color: #0070A0;
+
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	padding: 40px 12px;
 }
 .header__wrapper-button-green{
-	color: #F6FAFD;
-	background: #1DBF73;
-	font-weight: 600;
-	font-size: 16px;
-	padding: 10px 30px;
-	border-radius: 50px;
+	color: white;
+	background: #0070A0;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+	padding: 7px 20px;
+}
+
+.header__wrapper-button-grey:hover{
+	color: #61dafb;
+}
+
+.header__wrapper-button-green:hover{
+	background-color: #1d9fbf;
 }
