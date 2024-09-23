@@ -67,16 +67,15 @@ header{
 .header__wrapper-nav a:hover{
 	color: #1d9fbf;
 }
-.header__wrapper-button-grey{
+.learn-more{
 	color: #0070A0;
 
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
-	padding: 40px 12px;
 }
-.header__wrapper-button-green{
+.book-demo{
 	color: white;
 	background: #0070A0;
 	font-size: 15px;
@@ -86,10 +85,108 @@ header{
 	padding: 7px 20px;
 }
 
-.header__wrapper-button-grey:hover{
+.learn-more:hover{
 	color: #61dafb;
 }
 
-.header__wrapper-button-green:hover{
+.book-demo:hover{
 	background-color: #1d9fbf;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 80px;
+}
+
+.hero-text {
+	max-width: 50%;
+}
+
+.hero-text h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero-text p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.hero-image img {
+	width: 300px;
+	max-width: 100%;
+}
+
+.trusted {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.trusted .logos {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 20px;
+}
+
+
+.features {
+	display: flex;
+	padding: 80px;
+	gap:30px;
+}
+
+.feature-image{
+	width: 60px;
+}
+
+.feature-card {
+	width: 30%;
+	background-color: #fff;
+	padding: 30px;
+}
+
+.feature-card:nth-child(1) {
+	background-color: #ffeb3b;
+}
+
+.feature-card:nth-child(2) {
+	background-color: #b3e5fc;
+}
+
+.feature-card:nth-child(3) {
+	background-color: #ffcdd2;
+}
+
+.info {
+	display: flex;
+	text-align: center;
+	padding: 80px;
+}
+
+.info-cards {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.info-card {
+	width: 30%;
+	text-align: left;
+}
+
+.info-card h4 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.images{
+	width: 124px;
 }
