@@ -136,3 +136,10 @@ ol, ul {
     gap: 86px;
 }
 
+.main__main-aboutus .button{
+    margin-top: 48px;
+}
+
+.main__main-aboutus .button a{
+    color: black;
+}
