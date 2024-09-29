@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.orange{
+    color: orange;
+}
+
+.getaquote{
+    background: #FF4D01;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 27px 38px;
+}
+
+.ourservices{
+    padding: 27px 38px;
+    border: 1px black solid;
+}
+
+.container{
+    max-width: 1148px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    padding: 32px 0 955px;
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/IMAGE (2).png") no-repeat center;
+    background-size: cover;
+}
+
+.header a{
+    color: white;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__text .ourservices{
+    padding: 27px 38px;
+    border: 1px white solid;
+}
+
+.header__text{
+    position: relative;
+    max-width: 660px;
+    margin: 0 auto;
+    padding-top: 166px;
+}
+
+.header__text h1{
+    margin-bottom: 40px;
+    font-size: 72px;
+
+}
+
+.header__text p{
+    margin-bottom: 80px;
+    font-size: 18px;
+}
+
+.header__text .buttons{
+    margin-left: 132px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    gap: 55px;
+}
+
+.main{
+    margin-top: 144px;
+}
+
+.main__main{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+
+.main__main-image{
+    width: 479px;
+    height: 682px;
+}
+
+.main__main-aboutus{
+
+}
+
+.main__main-aboutus h1{
+    margin-top: 15px;
+    font-size: 54px;
+}
+
+.main__main-aboutus p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main__main-aboutus-numbers{
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+.
