@@ -22,10 +22,11 @@ ol, ul {
 }
 
 .orange{
-    color: orange;
+    color: #FF4D01;
 }
 
 .getaquote{
+    color: white;
     background: #FF4D01;
     font-size: 18px;
     font-weight: 400;
@@ -34,6 +35,7 @@ ol, ul {
 }
 
 .ourservices{
+    color: black;
     padding: 27px 38px;
     border: 1px black solid;
 }
@@ -129,6 +131,10 @@ ol, ul {
     line-height: 30px;
 }
 
+.main__main-aboutus .chooseus__chooseus-why-info{
+    margin-top: 20px;
+}
+
 .main__main-aboutus-numbers{
     margin-top: 57px;
     display: flex;
@@ -142,4 +148,130 @@ ol, ul {
 
 .main__main-aboutus .button a{
     color: black;
+}
+
+.services{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.services__services-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__services-text h1{
+    font-size: 54px;
+    width: 416px;
+}
+
+.services__blocks{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.services__block{
+    width: 296px;
+}
+
+.services__block h3{
+    margin-top: 32px;
+    font-size: 34px;
+}
+
+.services__block p{
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.ad{
+    position: relative;
+    background: url("../assets/metal.png") no-repeat center;
+    background-size: cover;
+    padding: 300px 0 545px;
+}
+
+.ad_ad{
+    max-width: 610px;
+}
+
+.ad_ad h1{
+    font-size: 54px;
+}
+
+.ad_ad p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.ad_ad .buttons{
+    margin-top: 45px;
+}
+
+.chooseus{
+    margin-top: 300px;
+}
+
+.chooseus__chooseus-why{
+    display: flex;
+    align-items: center;
+    gap: 82px;
+}
+
+.chooseus__chooseus-why img{
+    width: 534px;
+}
+
+.chooseus__chooseus-why-info{
+    display: block;
+    gap: 20px;
+}
+
+.past{
+    margin-top: 300px;
+}
+
+.past .services__services-text h1{
+    font-size: 54px;
+    width: 602px;
+}
+
+.past .services__block{
+    width: 545px;
+}
+
+.past-image-1{
+    position: relative;
+    background: url("../assets/flat.png") no-repeat center;
+    padding: 305px 0 305px 0;
+    color: white;
+}
+
+.past-image-2{
+    background: url("../assets/flattwo.png") no-repeat center;
+    padding: 305px 0 305px 0;
+    color: white;
+}
+
+.past .services__block h3{
+    margin-top: 32px;
+    font-size: 34px;
+    width: 361px;
+}
+
+.past .services__block p{
+    margin-top: 14px;
+    font-size: 18px;
+    max-width: 447px;
+}
+
+.past .buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 300px;
+    margin: 0 auto;
 }
