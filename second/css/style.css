@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #8c7e7e;
+}
+
 ol, ul {
     list-style: none;
 }
@@ -34,10 +38,19 @@ ol, ul {
     padding: 27px 38px;
 }
 
+.getaquote:hover{
+    background: #9f3104;
+}
+
 .ourservices{
     color: black;
     padding: 27px 38px;
     border: 1px black solid;
+}
+
+.ourservices:hover{
+    color: #490606;
+    border: 1px #490606 solid;
 }
 
 .container{
