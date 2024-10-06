@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/UF1.ttf);
+}
+
+@font-face {
+    font-family: Usually-font;
+    src: url(../fonts/Usually-font.otf);
+}
+
+@font-face {
+    font-family: Usually-font-Bold;
+    src: url(../fonts/Usually-font-Bold.otf);
+}
+
+.button{
+    font-family: Rosario, serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 205px;
+    height: 53px;
+    top: 829px;
+    left: 1472px;
+    border-radius: 50px;
+    color: rgba(209, 193, 43, 1);
+    border: 2px solid rgba(209, 193, 43, 1);
+    text-transform: uppercase;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+body{
+    background: rgba(14, 20, 28, 1);
+    font-family: myFirstFont, serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#color{
+    color: rgba(209, 193, 43, 1);
+}
+
+.container{
+    max-width: 1568px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-line{
+    padding-top: 43px;
+    margin-left: 104px;
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.header-type{
+    margin-top: 29px;
+    margin-left: 225px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-type ul{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 560px;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+
+.day-texts{
+    position: relative;
+}
+
+.every-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day-logo{
+    text-align: center;
+    margin-top: 135px;
+    width: 209.94px;
+    height: 49.94px;
+    top: 263px;
+    left: 912px;
+
+}
+
+.day-texts {
+    position: relative;
+    display: inline-block;
+}
+
+.day-text-bg{
+    font-family: Usually-font-Bold, serif;
+    position: absolute;
+    z-index: 1;
+    font-size: 170px;
+    color: rgba(31, 37, 45, 1);
+    font-weight: 700;
+    line-height: 148px;
+    text-align: center;
+}
+
+.day-text{
+    font-family: Usually-font-Bold, serif;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 113px;
+    text-align: center;
+}
+
+.every-day-text{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.buttons{
+    margin-top: 163px;
+}
+
