@@ -604,11 +604,11 @@ footer{
 
 
 
-footer .footer_block1{
+footer .footer_block-first{
     margin-left: 207px;
     margin-top: 57px;
 }
-footer .footer_block1 .footer_block1_upper{
+footer .footer_block-first .footer_block-first_upper{
     width: 235.29px;
     height: 18px;
     top: 55px;
@@ -622,7 +622,7 @@ footer .footer_block1 .footer_block1_upper{
     padding-bottom: 3px;
 }
 
-footer .footer_block1 .footer_block1_lower{
+footer .footer_block-first .footer_block-first_lower{
     width: 337.42px;
     height: 18px;
     top: 76px;
@@ -635,13 +635,13 @@ footer .footer_block1 .footer_block1_lower{
 
 }
 
-footer .footer_block2{
+footer .footer_block-second{
 
     margin-left: 143px;
     margin-top: 39px;
     align-items: center;
 }
-footer .footer_block2 img{
+footer .footer_block-second img{
     width: 195.24px;
     transform: translateX(-40px);
     height: 45px;
@@ -650,7 +650,7 @@ footer .footer_block2 img{
     angle: -0 deg;
 
 }
-footer .footer_block2 .footer_block_2_lower{
+footer .footer_block-second .footer_block-second_lower{
     display: flex;
     gap: 10px;
     padding-top: 16px;
@@ -665,7 +665,7 @@ footer .footer_block2 .footer_block_2_lower{
     left: 726.91px;
 
 }
-footer .footer_block2 .footer_block_2_lower .slogan{
+footer .footer_block-second .footer_block-second_lower .slogan{
     width: 93.12px;
     height: 18px;
     top: 100px;
@@ -678,14 +678,14 @@ footer .footer_block2 .footer_block_2_lower .slogan{
 
 }
 
-.footer_block3{
+.footer_block-third{
     margin-left: 450px;
     gap: 5px;
     margin-top: 66px;
 
 }
 
-.footer_block3 img{
+.footer_block-third img{
     width: 27px;
     height: 15px;
     padding: 0 5px 0 5px;
@@ -836,11 +836,11 @@ footer .footer_block2 .footer_block_2_lower .slogan{
         margin-top: 0;
     }
 
-    footer .footer_block1{
+    footer .footer_block-first{
         margin-left: 0;
     }
 
-    footer .footer_block3{
+    footer .footer_block-third{
         margin-left: 350px;
     }
 }
@@ -1046,12 +1046,12 @@ footer .footer_block2 .footer_block_2_lower .slogan{
         align-items: center;
     }
 
-    footer .footer_block2{
+    footer .footer_block-second{
         margin-left: 0;
         margin-top: 0;
     }
 
-    footer .footer_block3{
+    footer .footer_block-third{
         margin-left: 0;
         margin-top: 0;
     }
