@@ -20,6 +20,10 @@
     src: url(../fonts/Usually-font-Bold.otf);
 }
 
+.three{
+    display: none;
+}
+
 .button{
     font-family: Rosario, serif;
     font-size: 20px;
@@ -112,9 +116,14 @@ ol, ul {
     font-weight: 400;
 }
 
+
 .header-links{
     display: flex;
     align-items: center;
+}
+
+.every-day .header-links{
+    display: none;
 }
 
 .day-texts{
@@ -236,6 +245,7 @@ ol, ul {
     text-transform: uppercase;
     text-shadow: 0 0 5px rgba(255, 215, 0, 0.8);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-left: 1150px;
 }
 
 .glow-button:hover {
@@ -682,3 +692,476 @@ footer .footer_block2 .footer_block_2_lower .slogan{
 }
 
 
+@media (max-width:1600px){
+    .container{
+        max-width: 1248px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-line{
+        margin-top: 43px;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+        gap:365px;
+    }
+
+    .header-type{
+        margin-left: 180px;
+    }
+
+    .glow-button{
+        margin-left: 1050px;
+    }
+
+    .day-text{
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 87.1px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .every-day-text{
+        margin-top: 20px;
+        z-index: 2;
+    }
+
+    .this-season{
+        max-width: 1248px;
+        width: 100%;
+        margin: 280px auto 0;
+    }
+
+    .season-text-bg {
+
+        word-break: break-word;
+        font-size: 180px;
+        font-weight: 700;
+        line-height: 160px;
+        text-align: left;
+    }
+
+    .season-text{
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: left;
+        word-break: break-word;
+        hyphens: manual;
+        max-width: 679px;
+    }
+
+    .post{
+        margin-left: 0;
+    }
+
+    .text_2{
+        margin-left: 830px;
+    }
+
+    .glow-button_2{
+        left: 900px;
+    }
+
+    .arrow{
+        left: 0;
+    }
+    .arrow_2{
+        left:215px;
+    }
+
+    .line{
+        left:0;
+        z-index: 2;
+    }
+
+    .actual .season-text-bg{
+        font-size: 180px;
+        font-weight: 700;
+        line-height: 160px;
+        text-align: right;
+        max-width: 1248px;
+        margin-left: 190px;
+    }
+
+    .actual .season-text{
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: right;
+        margin-left: 820px;
+    }
+
+    .img_catalog{
+        margin-left: 172px;
+    }
+
+    .next_check{
+        margin-left: 50px;
+        padding: 55px 200px 50px 0;
+    }
+
+    .location .season-text{
+        max-width: 1248px;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+
+    }
+
+    .location .season-text-bg{
+        font-size: 160px;
+        font-weight: 700;
+        line-height: 160px;
+        text-align: left;
+
+    }
+
+    .location_main img{
+        max-width: 834px;
+        max-height: 425px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer .footer_block1{
+        margin-left: 0;
+    }
+
+    footer .footer_block3{
+        margin-left: 350px;
+    }
+}
+
+@media (max-width:800px){
+
+    .header-line{
+        padding-top: 0;
+    }
+
+    .header-logo{
+        display: none;
+    }
+
+    .nav{
+        margin-left: 100px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .nav ul a{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .header-type ul a{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .day-text-bg{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 69.68px;
+        text-align: center;
+
+    }
+
+    .day-text{
+        margin-top: 15px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 52.26px;
+        text-align: center;
+    }
+
+    .every-day-text{
+        margin-top: 58px;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+
+    }
+
+    .header-links{
+        display: none;
+    }
+
+    .every-day .header-links{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .buttons{
+        margin-top: 50px;
+    }
+
+    .glow-button{
+        margin-left: 0;
+    }
+
+    .season-texts{
+        margin-left: 69px;
+    }
+
+    .season-text-bg{
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 140px;
+        text-align: left;
+        max-width: 798px;
+    }
+
+    .season-text{
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 80px;
+        text-align: left;
+    }
+
+    .post{
+        max-width: 800px;
+        max-height: 495px;
+    }
+
+    .glow-button_2{
+        display: none;
+    }
+
+    .text_2{
+        display: none;
+    }
+
+    .arrow{
+        top: 424px;
+    }
+
+    .arrow_2{
+        top: 437px;
+    }
+
+    .line{
+        display: none;
+        align-items: center;
+        top: 470px;
+        max-height: 800px;
+        right: 0;
+    }
+
+    .actual .season-texts{
+        max-width: 800px;
+    }
+
+    .actual .season-text-bg{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 160px;
+        text-align: right;
+        margin-left: 0;
+    }
+
+    .actual .season-text{
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: right;
+        margin-left: 137px;
+    }
+
+    .img_catalog{
+        margin-left: 107px;
+    }
+
+    .block-no{
+        display: none;
+    }
+
+    .next_check{
+        display: none;
+    }
+
+    .location .season-texts{
+        margin-left: 0;
+    }
+
+    .location .season-text-bg{
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 160px;
+        text-align: left;
+    }
+
+    .location .season-text{
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 70px;
+        text-align: left;
+        margin-left: 72px;
+        max-width: 679px;
+    }
+
+    .location_main{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .location img{
+        width: 800px;
+        height: 425px;
+    }
+
+    .location_text{
+        margin-left: 218px;
+    }
+
+    footer{
+        margin-left: 0;
+        padding-left: 0;
+        max-width: 800px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer_block2{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    footer .footer_block3{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width: 428px){
+    .three{
+        display: flex;
+        align-items: center;
+        gap: 199px;
+    }
+
+    .nav{
+        margin-left: 25px;
+        margin-top: 21px;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .every-day .header-links{
+        display: none;
+    }
+
+    .header-type{
+        display: none;
+    }
+
+    .three .header-links{
+        display: block;
+    }
+
+    .this-season .season-texts{
+        max-width: 428px;
+    }
+
+    .this-season .season-text-bg{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;
+
+    }
+
+    .this-season .season-text{
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    .post{
+        max-width: 428px;
+        max-height: 495px;
+    }
+
+    .actual .season-texts{
+        max-width: 428px;
+        margin-left: 0;
+    }
+
+    .actual .season-text-bg{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: right;
+    }
+
+    .actual .season-text{
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: right;
+    }
+
+    .img_catalog{
+        margin-left: 26px;
+    }
+
+    .location .season-texts{
+        max-width: 428px;
+    }
+
+    .location .season-text-bg{
+        display: none;
+    }
+
+    .location .season-text{
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .location_main img{
+        max-width: 428px;
+        max-height: 367px;
+    }
+
+    .location_text{
+        margin: 0 100px;
+    }
+
+    footer{
+        max-width: 428px;
+        padding-top: 50px;
+    }
+
+    footer .
+}
