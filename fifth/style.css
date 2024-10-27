@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+.hidden {
+    display: none;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.option {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+.option:hover {
+    background-color: #f1f1f1;
+}
+.selected {
+    background-color: #cce5ff;
+    border-color: #66b0ff;
+}
+.score {
+    font-size: 1.5em;
+    color: #333;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
