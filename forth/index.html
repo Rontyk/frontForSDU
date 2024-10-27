@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="input">
+        <label for="task"></label>
+        <input type="text" class="task" id="task">
+        <button onclick="addTask()">Add</button>
+    </div>
+    <div class="content">
+
+    </div>
+    <script>
+        let c = "ABB"
+        let a = 0
+        let b = 0
+        for(let i = 0; i < c.length; i++){
+            if(c.charAt(i) == "A"){
+                a ++
+            }
+            else{
+                b ++
+            }
+        }
+        if(a > b){
+            console.log("A")
+        }
+        if(a < b){
+            console.log("B")
+        }
+        if(a === b){
+            console.log("E")
+        }
+    </script>
+</body>
+</html>
