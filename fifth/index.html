@@ -10,13 +10,14 @@
 
 <div class="container">
     <div id="start-screen">
-        <h1>Welcome to the Quiz!</h1>
+        <h1>Welcome to the Quiz</h1>
         <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
-    <div id="quiz-screen" class="hidden fade-in">
+    <div id="quiz-screen" class="hidden">
         <h2 id="question"></h2>
         <div id="options"></div>
+        <div class="timer" id="timer">Time left: 30s</div>
         <div class="navigation-buttons">
             <button onclick="previousQuestion()" id="back-button" class="hidden">Back</button>
             <button onclick="nextQuestion()" id="next-button" disabled>Next</button>

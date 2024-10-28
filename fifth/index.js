@@ -19,6 +19,8 @@ const quizQuestions = [
 let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswers = new Array(quizQuestions.length).fill(null);
+let timer;
+let timeLeft = 30;
 
 function startQuiz() {
     document.getElementById('start-screen').classList.add('hidden');
@@ -52,8 +54,25 @@ function loadQuestion() {
         optionsDiv.appendChild(optionElement);
     });
 
+    resetTimer();
     toggleBackButton();
     disableNextButton();
+}
+
+function resetTimer() {
+    clearInterval(timer);
+    timeLeft = 30;
+    document.getElementById('timer').textContent = `Time left: ${timeLeft}s`;
+
+    timer = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = `Time left: ${timeLeft}s`;
+
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            nextQuestion();
+        }
+    }, 1000);
 }
 
 function selectOption(index, element) {
@@ -103,6 +122,7 @@ function disableNextButton() {
 }
 
 function endQuiz() {
+    clearInterval(timer);
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('result-screen').classList.remove('hidden');
     document.getElementById('score').textContent = `Your score: ${score} out of ${quizQuestions.length}`;
@@ -111,7 +131,8 @@ function endQuiz() {
 function restartQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    selectedAnswers = new Array(quizQuestions.length).fill(null); // Reset selected answers
+    selectedAnswers = new Array(quizQuestions.length).fill(null);
+    clearInterval(timer);
     document.getElementById('result-screen').classList.add('hidden');
     document.getElementById('start-screen').classList.remove('hidden');
 }
